@@ -90,6 +90,6 @@ Make sure you have the following installed:
          npm run dev
      ```
 
-## Runnung the Application
+## Running the Application
 
 - Access the app by opening http://localhost:5173 in your browser
