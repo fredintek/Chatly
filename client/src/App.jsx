@@ -1,5 +1,14 @@
+import { Route } from "react-router-dom";
+import ChatPage from "./pages/ChatPage";
+import HomePage from "./pages/HomePage";
+
 function App() {
-  return <h1 className="text-red-500">Hello World</h1>;
+  return (
+    <>
+      <Route path="/" component={HomePage} exact />
+      <Route path="/chats" component={ChatPage} />
+    </>
+  );
 }
 
 export default App;
