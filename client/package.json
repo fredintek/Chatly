@@ -9,7 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "proxy": "http://127.0.0.1:9090",
   "dependencies": {
     "@chakra-ui/react": "^3.1.0",
     "@emotion/react": "^11.13.3",
